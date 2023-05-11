@@ -17,10 +17,13 @@ public class ChatBot {
 
     public static void greeting() {
         System.out.println("Hello!");
+        System.out.println("What's your name?");
+        String userName = (scanner.nextLine());
+
     }
 
     public static void name() {
-        System.out.println("What's your name?");
+        System.out.println("I'm sorry, can you repeat your name?");
         String userName = (scanner.nextLine());
         System.out.println("Nice to meet you " + userName + "!");
 
